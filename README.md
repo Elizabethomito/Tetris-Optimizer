@@ -22,6 +22,7 @@ A **Go program** that reads a file of tetromino shapes and arranges them to form
 ---
 
 ## Folder Structure
+```
 Tetris-Optimizer/
 ├── main.go # Entry point
 ├── parser/
@@ -37,7 +38,7 @@ Tetris-Optimizer/
 ├── go.mod
 ├── go.sum
 └── sample.txt # Sample tetromino input
-
+```
 
 ---
 
@@ -47,7 +48,7 @@ Tetris-Optimizer/
 - Tetrominoes are separated by a **single empty line**.  
 
 Example `sample.txt`:
-
+```
 ...#
 ...#
 ...#
@@ -57,7 +58,7 @@ Example `sample.txt`:
 ..##
 ..##
 ....
-
+```
 
 ---
 
